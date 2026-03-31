@@ -1,0 +1,28 @@
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Machine Learning Models
+xgboost_model.pkl
+
+# Environment variables
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Frontend (covered by Vite, but included for safety)
+node_modules/
+dist/
+dist-ssr/
+*.local
